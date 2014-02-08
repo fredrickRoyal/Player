@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a6a60e3b-353b-4f0a-a3ab-68a81f3cc989" name="Royal@ROYAL-PC 2014-01-31 15:32:09" runUser="Royal-PC\Royal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="505c923a-104d-4a03-b450-c7cc4890602c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Royal_ROYAL-PC 2014-01-31 15_32_09">
+      <DeploymentItem filename="C:\Program Files\Accord.NET\Framework\Release\ZedGraph.dll" />
+      <DeploymentItem filename="C:\Users\Royal\documents\visual studio 2010\Projects\Player\Player\bin\Debug\Player.exe" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.GPU.dll" />
+      <DeploymentItem filename="C:\Users\Royal\documents\visual studio 2010\Projects\Face tracking (Camshift)\bin\x86\Debug\Accord.Vision.dll" />
+      <DeploymentItem filename="C:\Users\Royal\documents\visual studio 2010\Projects\Face tracking (Camshift)\bin\x86\Debug\AForge.Imaging.Formats.dll" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.ML.dll" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.DebuggerVisualizers.VS2010.dll" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.Util.dll" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.UI.dll" />
+      <DeploymentItem filename="C:\Program Files\NUnit 2.6.3\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.DebuggerVisualizers.VS2008.dll" />
+      <DeploymentItem filename="C:\Users\Royal\documents\visual studio 2010\Projects\Face tracking (Camshift)\bin\x86\Debug\AForge.Imaging.dll" />
+      <DeploymentItem filename="C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-31T15:32:09.9559651-08:00" queuing="2014-01-31T15:32:11.9550795-08:00" start="2014-01-31T15:32:12.2420959-08:00" finish="2014-01-31T15:32:13.4031623-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RequestStopTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="02a07988-1289-07d2-1619-9ca2aad8db9a">
+      <Execution id="79fbdaf4-38fd-40a7-92ea-f1836ef8d311" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RequestStopTest" />
+    </UnitTest>
+    <UnitTest name="VideoFromFileGrabberThreadConstructorTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="eb8190bf-2e56-236d-3099-f675ce573a8d">
+      <Execution id="b3416be3-5929-4083-a226-ccd70fb99776" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VideoFromFileGrabberThreadConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DoWorkTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="b23a348d-00df-c47d-9ace-53f38d58bee7">
+      <Execution id="a6e2cdd6-23d7-4328-b862-ce20a7ba60c9" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoWorkTest" />
+    </UnitTest>
+    <UnitTest name="StartVideoUpdaterThreadTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="b1140417-6359-e7f8-c8e5-40b5953ef3b0">
+      <DeploymentItems>
+        <DeploymentItem filename="Player.exe" />
+      </DeploymentItems>
+      <Execution id="42faf88e-1515-4371-8914-0993f3e5bce8" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StartVideoUpdaterThreadTest" />
+    </UnitTest>
+    <UnitTest name="StartFaceDetectingThreadTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="fc3667b6-98bb-d68f-a265-f5798d33e13b">
+      <DeploymentItems>
+        <DeploymentItem filename="Player.exe" />
+      </DeploymentItems>
+      <Execution id="e0a647b0-57b9-4493-94bc-b8e95d84b85c" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StartFaceDetectingThreadTest" />
+    </UnitTest>
+    <UnitTest name="AddNextFrameToQueueForProcessingTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="58406608-e138-0bbb-da79-fc655e424e93">
+      <DeploymentItems>
+        <DeploymentItem filename="Player.exe" />
+      </DeploymentItems>
+      <Execution id="3d842f6e-14a3-4525-a994-4d47ab963714" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNextFrameToQueueForProcessingTest" />
+    </UnitTest>
+    <UnitTest name="StartProcessingThreadsTest" storage="c:\users\royal\documents\visual studio 2010\projects\player\ourunittests\bin\debug\ourunittests.dll" id="96a2952b-2283-277a-94ba-ed06a4b28946">
+      <DeploymentItems>
+        <DeploymentItem filename="Player.exe" />
+      </DeploymentItems>
+      <Execution id="96e3eb91-00b0-4edc-91d8-ecedceafe4a6" />
+      <TestMethod codeBase="C:/Users/Royal/documents/visual studio 2010/Projects/Player/OurUnitTests/bin/Debug/OurUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OurUnitTests.VideoFromFileGrabberThreadTest, OurUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StartProcessingThreadsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02a07988-1289-07d2-1619-9ca2aad8db9a" executionId="79fbdaf4-38fd-40a7-92ea-f1836ef8d311" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58406608-e138-0bbb-da79-fc655e424e93" executionId="3d842f6e-14a3-4525-a994-4d47ab963714" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96a2952b-2283-277a-94ba-ed06a4b28946" executionId="96e3eb91-00b0-4edc-91d8-ecedceafe4a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1140417-6359-e7f8-c8e5-40b5953ef3b0" executionId="42faf88e-1515-4371-8914-0993f3e5bce8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b23a348d-00df-c47d-9ace-53f38d58bee7" executionId="a6e2cdd6-23d7-4328-b862-ce20a7ba60c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb8190bf-2e56-236d-3099-f675ce573a8d" executionId="b3416be3-5929-4083-a226-ccd70fb99776" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc3667b6-98bb-d68f-a265-f5798d33e13b" executionId="e0a647b0-57b9-4493-94bc-b8e95d84b85c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="79fbdaf4-38fd-40a7-92ea-f1836ef8d311" testId="02a07988-1289-07d2-1619-9ca2aad8db9a" testName="RequestStopTest" computerName="ROYAL-PC" duration="00:00:00.1070956" startTime="2014-01-31T15:32:12.3531022-08:00" endTime="2014-01-31T15:32:12.9541366-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79fbdaf4-38fd-40a7-92ea-f1836ef8d311">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.RequestStopTest threw exception: 
+System.NullReferenceException: Unable to create capture from </Message>
+          <StackTrace>    at Emgu.CV.Capture..ctor(String fileName)
+   at Player.VideoFromFileGrabberThread..ctor(String file_name, ImageBox image_box, PictureBox picture_box) in C:\Users\Royal\documents\visual studio 2010\Projects\Player\Player\VideoFromFileGrabberThread.cs:line 27
+   at OurUnitTests.VideoFromFileGrabberThreadTest.RequestStopTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d842f6e-14a3-4525-a994-4d47ab963714" testId="58406608-e138-0bbb-da79-fc655e424e93" testName="AddNextFrameToQueueForProcessingTest" computerName="ROYAL-PC" duration="00:00:00.0149899" startTime="2014-01-31T15:32:12.9621371-08:00" endTime="2014-01-31T15:32:13.0051395-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d842f6e-14a3-4525-a994-4d47ab963714">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.AddNextFrameToQueueForProcessingTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Player.VideoFromFileGrabberThread_Accessor.AddNextFrameToQueueForProcessing()
+   at OurUnitTests.VideoFromFileGrabberThreadTest.AddNextFrameToQueueForProcessingTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96e3eb91-00b0-4edc-91d8-ecedceafe4a6" testId="96a2952b-2283-277a-94ba-ed06a4b28946" testName="StartProcessingThreadsTest" computerName="ROYAL-PC" duration="00:00:00.0049447" startTime="2014-01-31T15:32:13.0201404-08:00" endTime="2014-01-31T15:32:13.0461419-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96e3eb91-00b0-4edc-91d8-ecedceafe4a6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.StartProcessingThreadsTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Player.VideoFromFileGrabberThread_Accessor.StartProcessingThreads()
+   at OurUnitTests.VideoFromFileGrabberThreadTest.StartProcessingThreadsTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42faf88e-1515-4371-8914-0993f3e5bce8" testId="b1140417-6359-e7f8-c8e5-40b5953ef3b0" testName="StartVideoUpdaterThreadTest" computerName="ROYAL-PC" duration="00:00:00.0048803" startTime="2014-01-31T15:32:13.0611427-08:00" endTime="2014-01-31T15:32:13.0731434-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42faf88e-1515-4371-8914-0993f3e5bce8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.StartVideoUpdaterThreadTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Player.VideoFromFileGrabberThread_Accessor.StartVideoUpdaterThread()
+   at OurUnitTests.VideoFromFileGrabberThreadTest.StartVideoUpdaterThreadTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 158
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6e2cdd6-23d7-4328-b862-ce20a7ba60c9" testId="b23a348d-00df-c47d-9ace-53f38d58bee7" testName="DoWorkTest" computerName="ROYAL-PC" duration="00:00:00.0044217" startTime="2014-01-31T15:32:13.0761436-08:00" endTime="2014-01-31T15:32:13.0941446-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6e2cdd6-23d7-4328-b862-ce20a7ba60c9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.DoWorkTest threw exception: 
+System.NullReferenceException: Unable to create capture from </Message>
+          <StackTrace>    at Emgu.CV.Capture..ctor(String fileName)
+   at Player.VideoFromFileGrabberThread..ctor(String file_name, ImageBox image_box, PictureBox picture_box) in C:\Users\Royal\documents\visual studio 2010\Projects\Player\Player\VideoFromFileGrabberThread.cs:line 27
+   at OurUnitTests.VideoFromFileGrabberThreadTest.DoWorkTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 104
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3416be3-5929-4083-a226-ccd70fb99776" testId="eb8190bf-2e56-236d-3099-f675ce573a8d" testName="VideoFromFileGrabberThreadConstructorTest" computerName="ROYAL-PC" duration="00:00:00.0055920" startTime="2014-01-31T15:32:13.0961447-08:00" endTime="2014-01-31T15:32:13.1101455-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3416be3-5929-4083-a226-ccd70fb99776">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.VideoFromFileGrabberThreadConstructorTest threw exception: 
+System.NullReferenceException: Unable to create capture from </Message>
+          <StackTrace>    at Emgu.CV.Capture..ctor(String fileName)
+   at Player.VideoFromFileGrabberThread..ctor(String file_name, ImageBox image_box, PictureBox picture_box) in C:\Users\Royal\documents\visual studio 2010\Projects\Player\Player\VideoFromFileGrabberThread.cs:line 27
+   at OurUnitTests.VideoFromFileGrabberThreadTest.VideoFromFileGrabberThreadConstructorTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0a647b0-57b9-4493-94bc-b8e95d84b85c" testId="fc3667b6-98bb-d68f-a265-f5798d33e13b" testName="StartFaceDetectingThreadTest" computerName="ROYAL-PC" duration="00:00:00.0047409" startTime="2014-01-31T15:32:13.1171459-08:00" endTime="2014-01-31T15:32:13.1321468-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0a647b0-57b9-4493-94bc-b8e95d84b85c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OurUnitTests.VideoFromFileGrabberThreadTest.StartFaceDetectingThreadTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Player.VideoFromFileGrabberThread_Accessor.StartFaceDetectingThread()
+   at OurUnitTests.VideoFromFileGrabberThreadTest.StartFaceDetectingThreadTest() in C:\Users\Royal\Documents\Visual Studio 2010\Projects\Player\OurUnitTests\VideoFromFileGrabberThreadTest.cs:line 132
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
